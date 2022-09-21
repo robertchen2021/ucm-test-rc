@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nauto-zoo
+Version: 73.dev0
+Author: nauto.com
+Author-email: 
+Requires-Python: >=3.7.0
+Provides-Extra: dev
+Provides-Extra: preprocess
+Provides-Extra: test

@@ -1,0 +1,1 @@
+{"event": {"message_id": "16a488238678d63b", "type": "braking-hard", "event_packager_id": "1213121321", "params": {"utc_boot_time_ns": 1631577860107705597, "utc_boot_time_offset_ns": 0, "event_end_sensor_ns": 790501312455, "event_start_sensor_ns": 788869293412, "maneuver_data": {"event_duration_ns": "1632019043"}}}}

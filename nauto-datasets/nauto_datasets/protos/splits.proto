@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package nauto_datasets.protos;
+
+
+message SplitConfig {
+  string name = 1;
+  float fraction = 2;
+  bool shuffle = 3;
+}
+
+message RandomSplitByColumn {
+  repeated SplitConfig split_confs = 1;
+  string column = 2;
+  float max_negatives_fraction = 3;
+  int64 max_size = 4;
+}
+
+message SplitStrategy {
+  oneof split_strategy {
+    RandomSplitByColumn random_split_by_column = 1;
+  }
+}

@@ -1,0 +1,1 @@
+from .no_motion_detector import NoMotionDetectorModel

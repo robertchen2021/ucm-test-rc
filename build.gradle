@@ -1,0 +1,16 @@
+plugins {
+    id 'idea'
+    id 'java'
+}
+
+subprojects {
+    group 'com.nauto'
+    version '1.0-SNAPSHOT'
+    repositories {
+        jcenter()
+        maven {
+            mavenCentral()
+            url 'https://maven.twttr.com/'
+        }
+    }
+}

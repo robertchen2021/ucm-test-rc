@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+package nauto_datasets.protos;
+
+
+message Event {
+  enum EventType {
+    CALLIBRATION_SNAPSHOTS = 0;
+    DISTRACTION = 1;
+    SEVERE_G_EVENT = 2;
+    TAILGATING = 3;
+    OBSTRUCTED_CAMERA = 4;
+    MARK = 5;
+    DISTRACTION_RESEARCH = 6;
+    BRAKING_HARD = 7;
+    CRASHNET = 8;
+    CUSTOM_COLLISION = 9;
+  }
+}
+
+
+message Judgment {
+  enum JudgmentType {
+    DISTRACTION = 0;
+    TAILGATING = 1;
+    COLLISION = 2;
+    QUESTIONAIRE = 3; 
+    CALIBRATION = 4;
+    LOOSE_DEVICE = 5;
+    BAD_INSTALL = 6;
+    OBSTRUCTED_CAMERA = 7;
+    WINDSHIELD_WIPERS = 8;
+    IR_CAM_ISSUE = 9;
+    NATURAL_LANGUAGE_DESCRIPTION = 10;
+    TIMELINE = 11;
+    COLLISION_TIMELINE = 12;
+  }
+}
+
+message JudgmentSummaryFilter {
+  repeated string values = 1;
+  bool invert = 2;
+}
+
+message Media {
+  enum MediaType {
+    SENSOR = 0;
+    SNAPSHOT_IN = 1;
+    SNAPSHOT_OUT = 2;
+    VIDEO_IN = 3;
+    VIDEO_OUT = 4;
+    MJPEG_IN = 5;
+  }
+}
+
+message DRTConfig {
+  repeated Judgment.JudgmentType judgment_types = 1;
+  repeated Event.EventType event_types = 2;
+  repeated Media.MediaType media_types = 3;
+  bool ignore_missing_media = 4;
+  // mapping from judgment type to its summary filter
+  map<int32, JudgmentSummaryFilter> judgment_summary_filters = 5;
+}
+
+message DRTDataSource {
+  DRTConfig drt_config = 1;
+}

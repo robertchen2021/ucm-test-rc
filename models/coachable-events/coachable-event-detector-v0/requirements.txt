@@ -1,0 +1,8 @@
+botocore==1.12.213
+cloud-models-python==0.4
+protobuf==3.8.0
+git+git://github.com/wearefair/protobuf-to-dict@f9a431f35b98eb13b74438b0eccec52847c6f684#egg=protobuf-to-dict
+numpy==1.16.4
+pandas>=0.25.0
+scipy==1.3.0
+nauto-datasets==0.5.0

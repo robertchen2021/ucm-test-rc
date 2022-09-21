@@ -1,0 +1,63 @@
+{
+  "event": {
+    "event_packager_id": "8f8ec28f-d29e-4789-baef-97fd152f244b",
+    "custom_request_id": null,
+    "type": "braking-hard",
+    "message_id": "166106dcb4aac720",
+    "s2_cell_id": "",
+    "params": {
+      "maneuver_data": {
+        "threshold_file_info": "deliberate_braking-sedan-0.04-20200409"
+      },
+      "event_start_sensor_ns": "14799490298675",
+      "event_end_sensor_ns": "14799720645354",
+      "boot_session": 1,
+      "cloud_region": "",
+      "final_velocity": 0,
+      "generated_time": 0,
+      "imei": "",
+      "initial_velocity": 0,
+      "peak_value": 0,
+      "s2_timestamp": 0,
+      "sensor_files": [
+        ""
+      ],
+      "severity": "",
+      "severity_metrics": {
+        "distraction": {
+          "severity": "none",
+          "value": 0
+        },
+        "gforce": {
+          "severity": "low",
+          "value": 0.4
+        },
+        "score": 0,
+        "severity": "low",
+        "speed": {
+          "severity": "high",
+          "speed_units": "",
+          "value": 0
+        },
+        "tailgating": {
+          "severity": "none",
+          "time_to_headway": 0,
+          "value": 0
+        }
+      },
+      "severity_v1": "high",
+      "utc_boot_time_ns": 1612562887280330500,
+      "utc_boot_time_offset_ns": 0,
+      "vehicle_id": "",
+      "version": "3.0",
+      "video_in": [
+        ""
+      ],
+      "video_out": [
+        ""
+      ]
+    },
+    "media": []
+  }
+}
+

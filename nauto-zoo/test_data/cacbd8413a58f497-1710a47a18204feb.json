@@ -1,0 +1,134 @@
+{
+  "_index": "candy-2022.09.01",
+  "_type": "maneuver-back-up",
+  "_id": "cacbd8413a58f497:1710a47a18204feb",
+  "_score": 1,
+  "_source": {
+    "class": 1,
+    "type": "maneuver-back-up",
+    "id": "1710a47a18204feb",
+    "message_ts": "2022-09-01T05:11:46.797449195Z",
+    "s2_cell_id": "80dd34d069781aa3",
+    "location": [
+      -118.24283751450552,
+      33.8538884630058
+    ],
+    "device": "cacbd8413a58f497",
+    "fleet": "f-0388b377913eddd7",
+    "parameters": {
+      "app_session": 1147,
+      "boot_session": 1109,
+      "bounce": false,
+      "cloud_region": "us-east-1",
+      "event_duration_ms": 998,
+      "event_end_ms": 1662009106842,
+      "event_end_sensor_ns": 10310204544344,
+      "event_start_ms": 1662009105844,
+      "event_start_sensor_ns": 10309207198615,
+      "extra": {
+        "camera_selection": "3",
+        "dice_roll": "12",
+        "last_media_upload_epoch_ms": "1662009105844",
+        "media_config": "MediaProfilesVideoMediumMediaConfig",
+        "media_locked_out": "false",
+        "sensor_probability": "100",
+        "snapshot_probability": "0",
+        "video_probability": "100"
+      },
+      "final_velocity": 9.620111,
+      "fleet_id": "f-0388b377913eddd7",
+      "generated_sensor_ns": 10330217733027,
+      "generated_time": 1662009126725779200,
+      "gzip_compression_factor": 0.31568998109640833,
+      "has_audio": false,
+      "imei": "351711090526887",
+      "initial_velocity": 10.288889,
+      "maneuver_data": {
+        "algorithm_version": "0.1",
+        "applied_orientation_droid": "0.000, 0.090, -145.596",
+        "applied_orientation_rt": "-179.891, -34.404, 180.000",
+        "average_acc_x_while_stopped": "-0.873513225686849",
+        "difference_peak": "-0.49435952912475",
+        "difference_peak_sensor_ns": "10309432728094",
+        "end_integrated_speed": "-0.2507712475357377",
+        "event_duration": "997",
+        "event_duration_ns": "997345729",
+        "event_end_sensor_ns": "10310204544344",
+        "event_start_sensor_ns": "10309207198615",
+        "minimum_integrated_speed": "-0.2507712475357377",
+        "speed_at_peak_mps": "0.0",
+        "speed_final_mps": "9.620111465454102",
+        "speed_initial_mps": "10.288888931274414",
+        "start_integrated_speed": "-0.001368455960568975",
+        "threshold_file_info": "back_up-sedan-0.11-20190319"
+      },
+      "payload_size": 2006,
+      "peak_value": 0,
+      "s2_timestamp": 1662009127300,
+      "sensor_files": [
+        "1710a47627f24cc0",
+        "1710a47886f5cec0",
+        "1710a47adc516440"
+      ],
+      "sensor_ns": 10310289315274,
+      "severity": "low",
+      "severity_metrics": {
+        "distraction": {
+          "severity": "none",
+          "value": 0
+        },
+        "gforce": {
+          "severity": "low",
+          "value": 0
+        },
+        "score": 0,
+        "severity": "low",
+        "speed": {
+          "final_speed": 9.620111,
+          "initial_speed": 10.288889,
+          "severity": "low",
+          "speed_units": "",
+          "value": 10.288889
+        },
+        "tailgating": {
+          "severity": "none",
+          "time_to_headway": 0,
+          "value": 0
+        }
+      },
+      "status": "FINISHED",
+      "utc_boot_time_ns": 1661998796508134000,
+      "utc_boot_time_offset_ns": 0,
+      "vehicle_id": "v-b9fecbe8982942f4bdb2abb190a6fd66",
+      "version": "4.0",
+      "version_aosp": "N3,3112,20220108083540",
+      "version_core": "3.7.0_220531201820_7ea495e761a90e13e5192637eabeef9e63735385",
+      "version_hardware": "n3",
+      "version_rt": "1.17.80",
+      "video_in": [
+        "1710a47882f77800",
+        "1710a479acfd6a00",
+        "1710a47ad7035c00"
+      ],
+      "video_out": [
+        "1710a47882f77800",
+        "1710a479acfd6a00",
+        "1710a47ad7035c00"
+      ]
+    },
+    "received": "1710a484b435cc0d",
+    "received_ts": "2022-09-01T05:12:32.365775885Z",
+    "timestamp": "2022-09-01T05:12:32.371690094Z"
+  },
+  "fields": {
+    "received_ts": [
+      1662009152365
+    ],
+    "message_ts": [
+      1662009106797
+    ],
+    "timestamp": [
+      1662009152371
+    ]
+  }
+}

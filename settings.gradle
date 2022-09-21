@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        jcenter()
+        google()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id.startsWith("com.google.protobuf")) {
+                useModule("com.google.protobuf:protobuf-gradle-plugin:0.8.9")
+            }
+        }
+    }
+}
+
+rootProject.name = 'nauto-ai'
+include ':data:ground-truth'
+project(':data:ground-truth').projectDir = file('data/ground_truth')
+include ':schema:protos'
+include ':schema:protos:protogen'
