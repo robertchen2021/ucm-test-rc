@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package nauto_datasets.protos;
+
+import "google/protobuf/timestamp.proto";
+
+import "nauto_datasets/protos/drt.proto";
+import "nauto_datasets/protos/schema.proto";
+import "nauto_datasets/protos/serialization.proto";
+import "nauto_datasets/protos/splits.proto";
+
+
+message DataSource {
+  oneof data_source {
+    DRTDataSource drt_data_source = 1;
+  }
+}
+
+
+message DatasetDescription {
+  DataSource data_source = 1;
+  SplitStrategy split_strategy = 2;
+}
+
+
+message DatasetInstance {
+  string name = 1;
+  google.protobuf.Timestamp creation_time = 2;
+  google.protobuf.Timestamp data_since = 3;
+  google.protobuf.Timestamp data_until = 4;
+  RecordSchema schema = 5;
+  map<string, SerializedData> splits = 6;
+}

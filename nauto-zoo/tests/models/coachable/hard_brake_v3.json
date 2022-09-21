@@ -1,0 +1,74 @@
+{
+  "event": {
+    "event_packager_id": "123123123",
+    "custom_request_id": null,
+    "type": "braking-hard",
+    "message_id": "321321321",
+    "s2_cell_id": "",
+    "params": {
+      "abcc_data": {
+        "applied_orientation_angles": "",
+        "delta_v": "",
+        "end_threshold": "",
+        "event_duration": "",
+        "event_end_sensor_ns": "59416425023841",
+        "event_start_sensor_ns": "59410425023841",
+        "firmware_version": "",
+        "peak_magnitude": "",
+        "peak_time": "",
+        "speed_at_event_start": "",
+        "speed_at_peak": "",
+        "start_threshold": "",
+        "system_app_version": "",
+        "threshold_file_info": "braking-lhd_sedan-0.11-20190312",
+        "using_default_speed": ""
+      },
+      "boot_session": 1,
+      "cloud_region": "",
+      "final_velocity": 0,
+      "generated_time": 0,
+      "imei": "",
+      "initial_velocity": 0,
+      "peak_value": 0,
+      "s2_timestamp": 0,
+      "sensor_files": [
+        ""
+      ],
+      "severity": "",
+      "severity_metrics": {
+        "distraction": {
+          "severity": "none",
+          "value": 0
+        },
+        "gforce": {
+          "severity": "low",
+          "value": 0.4
+        },
+        "score": 0,
+        "severity": "low",
+        "speed": {
+          "severity": "high",
+          "speed_units": "",
+          "value": 0
+        },
+        "tailgating": {
+          "severity": "none",
+          "time_to_headway": 0,
+          "value": 0
+        }
+      },
+      "severity_v1": "high",
+      "utc_boot_time_ns": 1579743158939459800,
+      "utc_boot_time_offset_ns": 0,
+      "vehicle_id": "",
+      "version": "3.0",
+      "video_in": [
+        ""
+      ],
+      "video_out": [
+        ""
+      ]
+    },
+    "media": []
+  }
+}

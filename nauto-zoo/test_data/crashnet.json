@@ -1,0 +1,100 @@
+{
+    "event": {
+        "class": 1,
+        "type": "crashnet",
+        "message_id": "164d24f062d6a395",
+        "message_ts": "2020-12-03T07:40:56.910119829Z",
+        "s2_cell_id": "52b33a7c7092c5fb",
+        "location": [
+          -93.32119224678057,
+          45.10765708794484
+        ],
+        "device": "cb01b3e8926a570f",
+        "fleet": "f-c3ad907f2e6e32a5",
+        "params": {
+          "app_session": 116,
+          "boot_session": 111,
+          "cloud_region": "us-east-1",
+          "crashnet_data": {
+            "accel_end_sensor_ns": "252854626380426",
+            "accel_start_sensor_ns": "252834642176520",
+            "collision_score": "0.01126106",
+            "collision_threshold": "0.05",
+            "computed_peak_magnitude": "16.464096",
+            "computed_peak_sensor_ns": "252844636761884",
+            "curb_strike_score": "0.0",
+            "curb_strike_threshold": "0.17",
+            "filtered_by_loose_device": "false",
+            "generated_time_ns": "252854710897129",
+            "gyro_end_sensor_ns": "252854626380426",
+            "gyro_start_sensor_ns": "252834642176520",
+            "hard_brake_score": "0.0",
+            "hard_brake_threshold": "0.85",
+            "is_collision": "false",
+            "lbb_accel_end_sensor_ns": "252854631377770",
+            "lbb_accel_start_sensor_ns": "252744696469221",
+            "loose_device_score": "0.003352475",
+            "loose_device_threshold": "0.6",
+            "severe_g_event_end_sensor_ns": "252845596243030",
+            "severe_g_event_start_sensor_ns": "252843877172718",
+            "severe_g_generated_time_ns": "252845613267966",
+            "severe_g_peak_magnitude": "0.73405653",
+            "severe_g_peak_sensor_ns": "252843887167301",
+            "severe_g_threshold": "12.75",
+            "severe_g_version": "3.1",
+            "severe_g_xy_peak_magnitude": "7.1791267",
+            "severe_g_xy_peak_sensor_ns": "252843887167301",
+            "severe_g_xy_threshold": "6.63",
+            "uneven_road_score": "0.0",
+            "uneven_road_threshold": "0.25",
+            "unrecognized_event_score": "0.0",
+            "vehicle_profile": "2",
+            "vehicle_profile_name": "LHD_COMPACT"
+          },
+          "final_velocity": 0,
+          "fleet_id": "f-c3ad907f2e6e32a5",
+          "generated_sensor_ns": 252882134012639,
+          "generated_time": 1606981284333106200,
+          "imei": "351711090465532",
+          "initial_velocity": 11.935111,
+          "s2_timestamp": 1606981250000,
+          "sensor_files": [
+            "164d24e7eed33700",
+            "164d24ea42fd9f80",
+            "164d24ec97cfe0c0",
+            "164d24eee997ef40",
+            "164d24f1408f8180"
+          ],
+          "severity": "high",
+          "severity_metrics": {
+            "distraction": {
+              "severity": "none",
+              "value": 0
+            },
+            "gforce": {
+              "severity": "med",
+              "value": 0.7
+            },
+            "score": 2,
+            "severity": "high",
+            "speed": {
+              "severity": "med",
+              "speed_units": "",
+              "value": 11.935111
+            },
+            "tailgating": {
+              "severity": "none",
+              "time_to_headway": 0,
+              "value": 0
+            }
+          },
+          "utc_boot_time_ns": 1606728402199195000,
+          "utc_boot_time_offset_ns": 0,
+          "vehicle_id": "v-d3cf0744b3af493e85b34da8f562f08c",
+          "version": "15"
+        },
+        "received": "164d250154c0e7c1",
+        "received_ts": "2020-12-03T07:42:09.688258497Z",
+        "timestamp": "2020-12-03T07:42:09.695071404Z"
+      }
+}

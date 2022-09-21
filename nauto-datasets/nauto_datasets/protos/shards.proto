@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package nauto_datasets.protos;
+
+import "nauto_datasets/protos/serialization.proto";
+
+
+message ShardsSplitInfo {
+  repeated FileLocation shard_locations = 1;
+  int64 examples_count = 2;
+  int64 not_included_count = 3;
+}
+
+
+message ShardedDatasetInfo {
+  map<string, ShardsSplitInfo> splits = 1;
+  string split_by_column = 2;
+}

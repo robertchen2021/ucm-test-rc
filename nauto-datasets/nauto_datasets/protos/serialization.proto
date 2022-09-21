@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+
+package nauto_datasets.protos;
+
+
+enum FileSource {
+  LOCAL = 0;
+  HDFS = 1;
+  S3 = 2;
+}
+
+message FileLocation {
+  string path = 1;
+  FileSource file_source = 2;
+}
+
+
+message ParquetData {
+  FileLocation location = 1;
+  string compression = 2;
+  repeated string partitioning_columns = 3;
+}
+
+message SerializedData {
+  oneof serialized_data {
+    ParquetData parquet_data = 1;
+  }
+}

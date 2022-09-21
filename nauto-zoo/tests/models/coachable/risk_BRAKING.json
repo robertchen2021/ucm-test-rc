@@ -1,0 +1,149 @@
+{
+  "event": {
+    "event_packager_id": "123123123",
+    "custom_request_id": null,
+    "type": "risk",
+    "message_id": "321321321",
+    "s2_cell_id": "",
+    "params": {
+      "alert_requested": true,
+      "alert_times": [
+        196486923308
+      ],
+      "app_session": 1,
+      "boot_session": 1,
+      "bounce": false,
+      "cloud_region": "",
+      "condition_tree": {
+        "final.node0": {
+          "tag": "Maneuver, true, -1"
+        }
+      },
+      "event_duration_ms": 1995,
+      "extra": {
+        "camera_selection": "3",
+        "dice_roll": "74",
+        "last_media_upload_epoch_ms": "1652453786427",
+        "media_config": "MediaProfilesVideoShortMediaConfig",
+        "media_locked_out": "false",
+        "sensor_probability": "100",
+        "snapshot_probability": "0",
+        "video_probability": "100"
+      },
+      "filtered_risk_alert_infos": [
+        {
+          "filter_type": "FILTER_DELAYED_LOW_SEVERITY",
+          "filtering_risk_alert_ns": 0,
+          "filtering_risk_start_ns": 0,
+          "filtering_risk_type": "FCW",
+          "original_alert_ns": 195984470808,
+          "risk_severity": "LOW",
+          "risk_type": "BRAKING",
+          "sample_time": 195986848100
+        }
+      ],
+      "final_speed_mps": 2.212111,
+      "final_velocity": 2.212111,
+      "fleet_id": "f-123123123",
+      "generated_sensor_ns": 218029640279,
+      "generated_time": 1652453809260162000,
+      "has_audio": true,
+      "imei": "",
+      "initial_speed_mps": 7.562333,
+      "initial_velocity": 7.562333,
+      "is_sensor_time": true,
+      "is_shadow_mode": false,
+      "risk_alert_infos": {
+        "sensor_ns": "195984470808",
+        "severity": "LOW"
+      },
+      "risk_end_ms": 1652453788422,
+      "risk_end_sensor_ns": 197979740286,
+      "risk_start_ms": 1652453786427,
+      "risk_start_sensor_ns": 195984470808,
+      "risk_type": "BRAKING",
+      "s2_timestamp": 1652453809000,
+      "sensor_files": [
+        ""
+      ],
+      "sensor_ns": 0,
+      "severity": "low",
+      "severity_metrics": {
+        "distraction": {
+          "severity": "none",
+          "value": 0
+        },
+        "gforce": {
+          "severity": "high",
+          "value": 1
+        },
+        "score": 0,
+        "severity": "low",
+        "speed": {
+          "final_speed": 2.212111,
+          "initial_speed": 7.562333,
+          "severity": "low",
+          "speed_units": "",
+          "value": 7.562333
+        },
+        "tailgating": {
+          "severity": "none",
+          "time_to_headway": 0,
+          "value": 0
+        }
+      },
+      "severity_v1": "high",
+      "suppressors": {
+        "entire_event_suppressed": "false",
+        "suppression_mode": "SUPPRESSION_MODE_DISABLE"
+      },
+      "triggers": {
+        "final.maneuver_braking.applied_orientation_x_rad": "3.1248318979156653",
+        "final.maneuver_braking.applied_orientation_y_rad": "-0.5159301156607217",
+        "final.maneuver_braking.applied_orientation_z_rad": "3.141592653589793",
+        "final.maneuver_braking.delta_v": "-562.9252662527142",
+        "final.maneuver_braking.direction": "NONE",
+        "final.maneuver_braking.duration_ns": "565601042",
+        "final.maneuver_braking.end_speed_mps": "2.212110996246338",
+        "final.maneuver_braking.end_threshold": "-0.75",
+        "final.maneuver_braking.end_timestamp_ns": "195215641768",
+        "final.maneuver_braking.event_sample_count": "114",
+        "final.maneuver_braking.event_status": "FINISHED",
+        "final.maneuver_braking.message_type": "BRAKING",
+        "final.maneuver_braking.moving_state": "UNKNOWN",
+        "final.maneuver_braking.original_message_type": "NONE",
+        "final.maneuver_braking.peak_acceleration_g": "-1.0310901840150648",
+        "final.maneuver_braking.peak_acceleration_mps2": "-10.114995137850444",
+        "final.maneuver_braking.peak_epoch_ms": "1652453785312",
+        "final.maneuver_braking.peak_magnitude": "-10.114995137850444",
+        "final.maneuver_braking.peak_speed_mps": "7.562333106994629",
+        "final.maneuver_braking.peak_time": "194870274685",
+        "final.maneuver_braking.peak_timestamp_ns": "194870274685",
+        "final.maneuver_braking.sensor_ns": "195984470808",
+        "final.maneuver_braking.severity": "HIGH",
+        "final.maneuver_braking.speed_at_event_start": "2.212110996246338",
+        "final.maneuver_braking.speed_at_peak": "2.212110996246338",
+        "final.maneuver_braking.start_speed_mps": "7.562333106994629",
+        "final.maneuver_braking.start_threshold": "-5.297999858856201",
+        "final.maneuver_braking.start_timestamp_ns": "194650040726",
+        "final.maneuver_braking.threshold_file_info": "braking-lhd_default_n3-0.19-20210205",
+        "final.maneuver_braking.using_default_speed": "false"
+      },
+      "utc_boot_time_ns": 1652453591231605200,
+      "utc_boot_time_offset_ns": 0,
+      "vehicle_id": "",
+      "version": "2.0",
+      "version_aosp": "N3,3112,20220108083540",
+      "version_core": "3.7.0_220510193520_67e1027a1faa73cf0a60d53f751b45c20a263c61",
+      "version_hardware": "n3",
+      "version_rt": "1.17.76",
+      "video_in": [
+        ""
+      ],
+      "video_out": [
+        ""
+      ]
+    },
+    "media": []
+  }
+}

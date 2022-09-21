@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package nauto_datasets.protos;
+
+
+message ColumnDescription {
+  string json = 1;
+}
+
+message ColumnDescriptionList {
+  repeated ColumnDescription column_descriptions = 1;
+}
+
+message RecordSchema {
+  map<string, ColumnDescriptionList> entities = 1;
+}

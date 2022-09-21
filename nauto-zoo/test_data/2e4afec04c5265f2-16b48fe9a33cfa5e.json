@@ -1,0 +1,41 @@
+{
+    "event": {
+        "class": 1,
+        "type": "severe-g-event",
+        "message_id": "16b48fe9a33cfa5e",
+        "message_ts": "2021-11-05T05:39:58.27116707Z",
+        "s2_cell_id": "1e97d9a986388713",
+        "location": [
+          26.185512480027747,
+          -26.188996727725268
+        ],
+       "device": "2e4afec04c5265f2",
+       "fleet": "f-5b2de5f13157b685",
+       "params": {
+         "app_session": 395,
+         "boot_session": 366,
+         "cloud_region": "us-east-1",
+         "maneuver_data": {
+           "applied_orientation_droid": "0.000, 2.471, -134.534",
+           "applied_orientation_rt": "-176.479, -45.412, 180.000",
+           "delta_v_xy": "709.9560170024633",
+           "delta_v_xyz": "1141.3341533243656",
+           "event_duration_ns": "970397950",
+           "peak_acceleration_mps2": "27.975068603306106",
+           "peak_time_ns": "22374513988916",
+           "peak_xy_magnitude": "16.598344370627075",
+           "peak_xy_sensor_time": "22374513988916",
+           "peak_xyz_magnitude": "27.975068603306106",
+           "peak_xyz_sensor_time": "22374513988916",
+           "speed_at_peak_mps": "0.0",
+           "speed_final_mps": "0.0",
+           "speed_initial_mps": "0.0",
+           "threshold_file_info": "severe_g-lhd_default_n2-0.19-20210205",
+           "xy_end_thres": "0.75",
+           "xy_start_thres": "19.600000381469727",
+           "xyz_end_thres": "0.75",
+           "xyz_start_thres": "23.399999618530273"
+            }
+        }
+    }
+}
